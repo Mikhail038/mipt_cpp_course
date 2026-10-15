@@ -42,7 +42,7 @@ int main() {
 
     double epsilon = 0;
     if (!(std::cin >> epsilon) || epsilon < min_epsilon) {
-        std::print(stderr, "error: wrong entered values. expected positive double more than {}\n", min_epsilon);
+        std::print(stderr, "error: wrong entered value. expected positive double more than {}\n", min_epsilon);
         return EXIT_FAILURE;
     }
 
